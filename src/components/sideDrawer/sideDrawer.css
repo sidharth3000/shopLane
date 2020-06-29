@@ -1,0 +1,29 @@
+.sideDrawer
+{
+	width: 60%;
+	height: 100%;
+	background-color: #2770B6;
+	z-index: 100;
+	left:0;
+	top:0;
+	position: fixed;
+	transition: transform .3s ease-out;
+	padding: 50px 30px;
+	color: white
+}
+
+.sLogo
+{
+	height: 60px;
+	width: auto;
+}
+
+.open
+{
+	transform: translateX(0);
+}
+
+.close
+{
+	transform:translateX(-100%);
+}

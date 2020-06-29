@@ -1,0 +1,64 @@
+.toolbar
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	height: 60px;
+	background-color: #2770B6;
+	margin-bottom: 100px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ul li 
+{
+	display: inline;
+	padding: 10px;
+}
+
+.search
+{
+	height: 20px;
+	width: 50%;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: 2px solid #FFB327;
+}
+
+.logo
+{
+	height: 100%;
+	width: auto;
+	margin-bottom: 0px;
+	margin-left: 50%;
+}
+
+.shopify
+{
+	color: #FFB327;	
+}
+
+.image
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 620px) {
+	.toolbar{
+		display: none;
+	}
+
+	.shopify{
+		display: none;
+	}
+}
+
+@media (max-width: 1036px) {
+	
+	.shopify{
+		display: none;
+	}
+}

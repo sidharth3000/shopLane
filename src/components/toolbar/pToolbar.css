@@ -1,0 +1,29 @@
+.pToolbar
+{
+	background-color: #2770B6;
+	z-index: 50;
+	left:0;
+	top:0;
+}
+
+.pLogo
+{
+	height: 50px;
+	width: auto;
+	margin-left: 70%;
+}
+
+.line1
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: end;
+}
+
+.pSearch
+{
+	width: 80%;
+	height: 20px;
+	padding: 20px 40px;
+	
+}
