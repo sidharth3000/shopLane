@@ -1,5 +1,6 @@
 .pToolbar
 {
+	display: none;
 	background-color: #2770B6;
 	z-index: 50;
 	left:0;
@@ -26,4 +27,10 @@
 	height: 20px;
 	padding: 20px 40px;
 	
+}
+
+@media (max-width: 620px) {
+	.pToolbar{
+		display: block;
+	}
 }

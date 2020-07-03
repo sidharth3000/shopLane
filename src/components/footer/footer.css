@@ -1,0 +1,30 @@
+.footer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #000A13;
+	color: #24282C;
+}
+
+.icon
+{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.section
+{
+	/*margin: 15%;*/
+	padding: 25%;
+}
+
+.h
+{
+	transition: 0.3s all;
+	cursor: pointer;
+}
+
+.h:hover
+{
+	color: white;
+}

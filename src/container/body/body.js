@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
 
+import SlideShow from '../../components/slideShow/slideShow'
+import Card from '../cards/cards.js'
+
+
 class Body extends Component {
 	render () {
 		return(
-			<h1>BODY</h1>
+			<div>
+				<SlideShow />
+				<Card/>
+			</div>
 			)
 	}
 }

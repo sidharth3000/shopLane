@@ -1,0 +1,15 @@
+.buy
+{
+	border:none;
+	background-color: #2770B6;
+	color: #FFB327;
+	padding: 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.3s all
+}
+
+.buy:hover
+{
+	background-color: #03427E;
+}

@@ -1,0 +1,55 @@
+.modal
+{
+  text-align: center;
+	position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+
+    background-color: #FFB327;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    /*text-align: center;*/
+}
+
+.price
+{
+  grid-column: 2 / 3;
+}
+
+.modalImage
+{
+	 
+}
+
+.modalButton
+{
+	border:none;
+	background-color: #2770B6;
+	color: #FFB327;
+	padding: 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.3s all;
+	grid-column: 2 / 4;
+	margin:10px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: #2770B6;
+}

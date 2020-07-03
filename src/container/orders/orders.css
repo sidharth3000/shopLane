@@ -1,0 +1,32 @@
+.orders
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/*width: 50%;*/
+	margin-top: 40px;
+	background-color: #5D98D2;
+	/*position: fixed;*/
+	top: 0;
+	/*bottom: 0;*/
+	right: 0;
+	left: 0;
+}
+
+
+@media (max-width: 1036px) {
+	
+	.orders{
+		margin-top: 0px;
+	}
+}
+
+.heading
+{
+	background-color: #5D98D2;
+	color: #FFB327;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+

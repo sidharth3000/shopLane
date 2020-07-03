@@ -1,15 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet");
+
 .sideDrawer
 {
 	width: 60%;
 	height: 100%;
 	background-color: #2770B6;
-	z-index: 100;
+	z-index: 500;
 	left:0;
 	top:0;
 	position: fixed;
 	transition: transform .3s ease-out;
 	padding: 50px 30px;
-	color: white
+	color: white;
+	
 }
 
 .sLogo
@@ -27,3 +30,9 @@
 {
 	transform:translateX(-100%);
 }
+
+.options
+{
+	font-family: 'Monda', sans-serif;
+}
+

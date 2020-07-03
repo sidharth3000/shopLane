@@ -1,9 +1,9 @@
 import React from 'react'
 import './menu.css'
 
-const menu = () => {
+const menu = (props) => {
 	return(
-		<div className='menu'>
+		<div className='menu' onClick={props.open}>
 		<div className='bar'></div>
 		<div className='bar'></div>
 		<div className='bar'></div>
