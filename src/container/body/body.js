@@ -1,4 +1,3 @@
-//auth
 import React, {Component} from 'react';
 
 import SlideShow from '../../components/slideShow/slideShow'
