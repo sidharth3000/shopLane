@@ -13,8 +13,6 @@
 	/*margin-bottom: 100px;*/
 }
 
-
-
 .ul
 {
 	list-style: none;
@@ -23,7 +21,8 @@
 .link
 {
 	text-decoration: none;
-	color: white
+	color: white;
+	margin: 20px;
 }
 
 .li
@@ -52,7 +51,7 @@
 
 .logo
 {
-	height: 100%;
+	height: 50px;
 	width: auto;
 	margin-bottom: 0px;
 	margin-left: 50%;
